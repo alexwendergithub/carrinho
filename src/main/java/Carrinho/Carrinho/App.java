@@ -8,6 +8,10 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+    	ListadeCompras Lista = new ListadeCompras();
+    	Lista.adcionarLista("Alpha");
+    	Lista.adcionarLista("Beta");
+    	Lista.adcionarLista("Gama");
+    	Lista.visualizarLista();
     }
 }
